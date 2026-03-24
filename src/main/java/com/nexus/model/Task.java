@@ -23,6 +23,7 @@ public class Task {
 
     private String title;
     private TaskStatus status;
+    private TaskStatus previousStatus; //guardar o status da tarefa caso seja bloqueada
     private User owner;
     private double estimatedEffort; // esforco estimado em horas
 
@@ -104,9 +105,18 @@ public class Task {
                 activeWorkload--;
             }
 
+            this.previousStatus = this.status;
             this.status = TaskStatus.BLOCKED;
         } else {
-            this.status = TaskStatus.TO_DO;
+            if (this.status == TaskStatus.BLOCKED && this.previousStatus != null) {
+                //retorna a condicao que estava
+                this.status = this.previousStatus;
+
+                //se estava em progresso, aumenta o workload novamente
+                if (this.status == TaskStatus.IN_PROGRESS) {
+                activeWorkload++;
+                }
+            }
         }
     }
 

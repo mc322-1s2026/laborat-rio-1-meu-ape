@@ -3,5 +3,6 @@ com/nexus/exception/NexusValidationException.class
 com/nexus/model/TaskStatus.class
 com/nexus/Main.class
 com/nexus/service/Workspace.class
+com/nexus/model/Project.class
 com/nexus/model/User.class
 com/nexus/service/LogProcessor.class
