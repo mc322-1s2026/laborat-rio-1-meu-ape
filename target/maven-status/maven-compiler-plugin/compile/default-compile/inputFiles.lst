@@ -1,7 +1,8 @@
-/workspaces/laboratorio1/src/main/java/com/nexus/Main.java
-/workspaces/laboratorio1/src/main/java/com/nexus/exception/NexusValidationException.java
-/workspaces/laboratorio1/src/main/java/com/nexus/model/Task.java
-/workspaces/laboratorio1/src/main/java/com/nexus/model/TaskStatus.java
-/workspaces/laboratorio1/src/main/java/com/nexus/model/User.java
-/workspaces/laboratorio1/src/main/java/com/nexus/service/LogProcessor.java
-/workspaces/laboratorio1/src/main/java/com/nexus/service/Workspace.java
+/workspaces/laborat-rio-1-meu-ape/src/main/java/com/nexus/Main.java
+/workspaces/laborat-rio-1-meu-ape/src/main/java/com/nexus/exception/NexusValidationException.java
+/workspaces/laborat-rio-1-meu-ape/src/main/java/com/nexus/model/Project.java
+/workspaces/laborat-rio-1-meu-ape/src/main/java/com/nexus/model/Task.java
+/workspaces/laborat-rio-1-meu-ape/src/main/java/com/nexus/model/TaskStatus.java
+/workspaces/laborat-rio-1-meu-ape/src/main/java/com/nexus/model/User.java
+/workspaces/laborat-rio-1-meu-ape/src/main/java/com/nexus/service/LogProcessor.java
+/workspaces/laborat-rio-1-meu-ape/src/main/java/com/nexus/service/Workspace.java
